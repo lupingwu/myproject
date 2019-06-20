@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale
+    =1"/>
+    <link rel="stylesheet" href="../GOLFCSS/bootstrap.css">
+    
+    <link rel="stylesheet" href="../GOLFCSS/Animate.css">
+    <link rel="stylesheet" href="../GOLFCSS/section.css">
+    <style>
+        body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td, img {
+            margin: 0 ;
+            padding: 0 ;
+        }
+
+        i, em {
+            font-style: normal;
+        }
+
+        a {
+            text-decoration: none !important;
+        }
+
+       
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <header id="header"></header>
+    <div class="container-fluid my_body">
+        <div id="demo2" class="carousel" data-ride="carousel">
+                    <!--1.轮播图片 img引入 图片的宽要w-100 -->
+              <!--     <div class="carouser-inner" >
+                        <div class="carousel-item active">
+                            <a href="">
+                                <img src="../img/timg (2).jpg" class="bigwidth" alt="#"/>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="">
+                                <img src="../img/102.jpeg" class="bigwidth" alt="#"/>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="">
+                                <img src="../img/timg10.jpg" class="bigwidth" alt="#"/>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="">
+                                <img src="../img/88.jpg" class="bigwidth" alt="#"/>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="">
+                                <img src="../img/timg (7).jpg" class="bigwidth" alt="#"/>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="">
+                                <img src="../img/timg (30).jpg" class="bigwidth" alt="#"/>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="">
+                                <img src="../img/77.jpeg" class="bigwidth" alt="#"/>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="">
+                                <img src="../img/timg (27).jpg" class="bigwidth" alt="#"/>
+                            </a>
+                        </div> 
+                    </div>
+            
+                    <a href="#demo2" data-slide="next" class="carousel-control-next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                    <a href="#demo2" data-slide="prev" class="carousel-control-prev">
+                        <span  class="carousel-control-prev-icon"></span>
+                    </a>
+                    
+                    <ul class="carousel-indicators">
+                        <li data-target="#demo2" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo2" data-slide-to="1"></li>
+                        <li data-target="#demo2" data-slide-to="2"></li>
+                        <li data-target="#demo2" data-slide-to="3"></li>
+                        <li data-target="#demo2" data-slide-to="4"></li>
+                        <li data-target="#demo2" data-slide-to="5"></li>
+                        <li data-target="#demo2" data-slide-to="6"></li>
+                        <li data-target="#demo2" data-slide-to="7"></li>
+                    </ul> -->
+                    <!--无顺序关系-->
+        </div>
+    </div>
+        <!--球场图片样式-->
+    <div class="d-flex haikou floor">
+        <p>热门球场</p>
+        <p><a href="golf_site.html">海口</a></p>
+        <p><a href="javascript:;">三亚</a></p>
+        <p><a href="javascript:;">昆明</a></p>
+        <p><a href="javascript:;">上海</a></p>
+        <p><a href="javascript:;">深圳</a></p>
+        <p><a href="javascript:;">广州</a></p>
+        <p><a href="javascript:;">东莞</a></p>
+        <p><a href="javascript:;">所有球场>></a>
+            <select name="provs" >
+                <option>—请选择省份—</option><!--0-->
+                <option>广东省</option><!--1-->
+                <option>江西省</option>
+                <option>湖南省</option>
+                <option>湖北省</option>
+                <option>安徽省</option>
+                <option>浙江省</option>
+            </select>
+            <select name="cities" class="hide"></select>
+        </p>
+    </div>
+    <!--图片的card样式-->
+    <div class="d-flex">
+        <div class="card xiaoshou">
+          <a href="golf_site.html">
+            <img src="../img/golf2/0bcc5f0f2cb78c3d.jpg" class="shai" alt=""></a>    
+            <p class="m-0">海南海口观澜湖高尔夫9号场</p>
+            <p class="m-0">
+                <span class="qian">￥500 </span>
+                <span> 起</span>
+                <span class="yudings">预订</span>
+            </p>
+        </div>
+        <div class="card xiaoshou">
+            <a href="golf_site.html">    
+            <img src="../img/golf2/1a1bdf8a3935bd2a.jpg" class="shai" alt=""></a>
+            <p class="m-0">海南海口观澜湖高尔夫10号场</p>
+            <p class="m-0">
+                <span class="qian">￥600</span>
+                <span>起</span>
+                <span class="yudings">预订</span>
+            </p>
+        </div>
+        <div class="card xiaoshou">
+            <a href="golf_site.html">
+            <img src="../img/golf2/6dda7adb6ffa372c.jpg" class="shai" alt=""></a>
+            <p class="m-0">海南海口观澜湖高尔夫2号场</p>
+            <p class="m-0">
+                <span class="qian">￥780</span>
+                <span>起</span>
+                <span class="yudings">预订</span>
+            </p>
+        </div>
+        <div class="card xiaoshou">
+            <a href="golf_site.html">
+            <img src="../img/golf2/8b97957117927bc2.png" class="shai" alt=""></a>
+            <p class="m-0">海南海口观澜湖高尔夫1号场</p>
+            <p class="m-0">
+                <span class="qian">￥1680</span>
+                <span>起</span>
+                <span class="yudings">预订</span>
+            </p>
+        </div>
+    </div>
+
+
+
+    <div class="index2 floor d-flex justify-content-between">
+        <div>
+            <img src="../img/golf1/index.png" alt="#">
+            <span>高尔夫商品</span>
+            <span>(特卖汇)</span>
+        </div>
+        <div>
+            <img src="../img/golf2/ma1.gif" alt="#">
+        </div>
+        <div class="qianggou">
+            <span class="jlhs">距离本场抢购结束还剩</span>
+            <strong class="miaosha d-inline-block">00</strong>
+            <i class="sfm">时</i>
+            <strong class="miaosha d-inline-block">00</strong>
+            <i class="sfm">分</i>
+            <strong class="miaosha d-inline-block">00</strong>
+            <i class="sfm">秒</i>
+        </div>
+    </div> 
+    <div class="row ml-0 mr-0 mb-3 mt-1">
+        <div class="col-lg-3 col-md-6 col-sm-12 p-0 ">
+            <div class="mr-3 boxshadow">
+                <ul class="list-unstyled text-center">
+                    <li class="mb-2 my_over"><a href="golf_ball.html"><img src="../img/q11.jpg" class="imgq11" alt="#"></a> </li>
+                    <li class="h1"><a href="golf_ball.html">GOLFBALL</a></li>
+                    <li class="font-weight-bold">晨曦徐徐拉开了帷幕,又是一个绚丽多彩的早晨,带着清新降临人间。静静的高尔夫球场, 实在是太美了,在这里为您收集了各类球，一定有你喜欢的，赶紧进来看一下吧！</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 p-0 ">
+            <div class="ml-3 mr-3 boxshadow">
+                <ul class="list-unstyled text-center">
+                    <li class="mb-2 my_over">
+                        <a href="golf_ball_detail2.html">
+                        <img src="../img/index66.jpg" class="imgq12" alt="#">
+                        </a>
+                     </li>
+                    <li class="h1"><a href="">GOLFBOX</a></li>
+                    <li class="font-weight-bold">高尔夫球包栏目为您提供高尔夫球袋,taylormade高尔夫球包,callaway高尔夫球包,tilist高尔夫球包,特价高尔夫球包及高尔夫球包定制服务,应有尽有,乐享其中!</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 p-0 ">
+            <div class="ml-3 mr-3 boxshadow">
+                <ul class="list-unstyled text-center">
+                    <li class="mb-2 my_over"><a href="#"><img src="../img/golfyi.jpg" class="imgq12" alt="#"></a> </li>
+                    <li class="h1"><a href="">GOLFTHING</a></li>
+                    <li class="font-weight-bold">高尔夫球着装除了不影响球技发挥外,在选择的时候我们还应该注意服装的面料。各种不同的面料针对的群体不同,要根据自己的皮肤状态选择最合适自己的球衣,进来看看吧!</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 p-0 ">
+            <div class="ml-3 boxshadow">
+                <ul class="list-unstyled text-center">
+                    <li class="mb-2 my_over"><a href="#"><img src="../img/qm11.jpg" class="imgq11" alt="#"></a> </li>
+                    <li class="h1"><a href="">GOLFCAP</a></li>
+                    <li class="font-weight-bold">高尔夫帽子,材质舒适,保护运动中的你,开启健康生活新方式!优质的运动产品,设计新颖,结实耐用.迪卡侬,让运动生活更轻松!选择最合适自己的球衣,进来看看吧!</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row ml-0 mr-0 mb-2 ">
+            <div class="col-lg-3 col-md-6 col-sm-12 p-0 ">
+                <div class="mr-3 boxshadow">
+                    <ul class="list-unstyled text-center">
+                        <li class="mb-2 my_over"><a href="#"><img src="../img/qg1.jpg" class="imgq11" alt="#"></a> </li>
+                        <li class="h1"><a href="">BRASSIE</a></li>
+                        <li class="font-weight-bold">采用世界先进的研发技术及科学、选用最优质的生产材料，配合专业精细的手工生产工艺及精心从而帮助高尔夫球爱好者实现将球打的更远更准确的愿望，同时倍感舒适愉悦!</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 p-0 ">
+                <div class="ml-3 mr-3 boxshadow">
+                    <ul class="list-unstyled text-center">
+                        <li class="mb-2 my_over"><a href="#"><img src="../img/tui.jpg" class="imgq12" alt="#"></a> </li>
+                        <li class="h1"><a href="">GOLFPUTTE</a></li>
+                        <li class="font-weight-bold">作为高尔夫装备和创新性能技术的行业翘楚,卡拉威高尔夫公司于2019年1月隆重推出STOKELAB推杆,并于中国上市。精妙的推击全新STROKELAB的设计理念在于挑战传统!</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 p-0 ">
+                <div class="ml-3 mr-3 boxshadow">
+                    <ul class="list-unstyled text-center">
+                        <li class="mb-2 my_over"><a href="#"><img src="../img/qxie.jpg" class="imgq12" alt="#"></a> </li>
+                        <li class="h1"><a href="">GOLFSHOES</a></li>
+                        <li class="font-weight-bold">高尔夫鞋底的形状、材质、结构都有别于普通鞋,尤其鞋底钉确保球手站得稳,有脚踏实地的感觉,有助于在不平坦的路面行走和防滑！它的工学设计有助于你发挥最佳水平！</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 p-0 ">
+                <div class="ml-3 boxshadow">
+                    <ul class="list-unstyled text-center">
+                        <li class="mb-2 my_over"><a href="#"><img src="../img/tao4.jpg" class="imgq11" alt="#"></a> </li>
+                        <li class="h1"><a href="">GOLFGLOVES</a></li>
+                        <li class="font-weight-bold">耐克高尔夫手套,贴心保护你的双手,更保护你的心情,保持握杆良好手感,为你带来美妙高尔夫体验!优质的运动产品,设计新颖,结实耐用.耐克,让运动生活更轻松!</li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+    <ul class="list-unstyled ul_section1 d-flex justify-content-between mt-4 mb-4 floor">
+        <li class="h1 pl-4">球手排名</li>
+        <li class="pr-5 h4 text-color">
+        <a href="#">查看完整排名 
+            <span class="font-weight-bold h2 ">+</span> 
+        </a>
+     </li>
+    </ul>
+    
+    <div class="paiming mb-3 d-flex">
+        <div >
+            <ul class="list-unstyled ysbh">
+                <li class="zgx zgx1"  data-man="tab" data-div="#content1" > 
+                    <img src="../img/UaUFumvoQv68oCpSVhHk7A.png" alt="#">中高协职业男子排名
+                </li>
+                <li class="zgx " data-man="tab" data-div="#content2">
+                     <img src="../img/1trdBcqeSXewakX8IkniNg.png" alt="#">中高协职业女子排名
+                </li>
+                <li class="zgx " data-man="tab" data-div="#content3">
+                     <img src="../img/UDNASMAvR_aQwc_tGA5CXg.png" alt="#">中国男子世界排名
+                </li>
+                <li class="zgx " data-man="tab" data-div="#content4"> 
+                    <img src="../img/UDNASMAvR_aQwc_tGA5CXg.png" alt="#">中国女子世界排名
+                </li>
+            </ul>
+        </div> 
+        <div  id=content1 style="display: block">
+            <div class="paiming1 pb-4">
+                <p class="float:left h4 pl-4 font-weight-bold mt-3 w-50">中高协职业男子排名</p>
+                <p class="float:right  w-25 font-weight-bold">最后出版</p>
+                <p class="float:right  w-25">2019年05月07日-第18周</p>
+            </div>
+            <p>
+                <span>POS</span>
+                <span>CTRY</span>
+                <span>PLAYER</span>
+                <span>PTS AVG</span>
+            </p>
+            <ul class="float-left list-unstyled">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+            </ul>
+            <ul class="float-left list-unstyled">
+                <li>李昊桐</li>
+                <li>袁也淳</li>
+                <li>吴阿顺</li>
+                <li>张新军</li>
+                <li>梁文冲</li>
+                <li>金诚</li>
+            </ul>
+            <ul class="float-left list-unstyled">
+                <li>47.8807</li>
+                <li>40.5938</li>
+                <li>26.9693</li>
+                <li>23.9396</li>
+                <li>22.6266</li>
+                <li>20.1167</li>
+            </ul>
+        </div>
+
+
+        <div  id=content2 style="display: none">
+            <div class="paiming1 pb-4">
+                <p class="float:left h4 pl-4 font-weight-bold mt-3 w-50">中高协职业女子排名</p>
+                <p class="float:right  w-25 font-weight-bold">最后出版</p>
+                <p class="float:right  w-25">2019年05月07日-第18周</p>
+            </div>
+            <p>
+                <span>POS</span>
+                <span>CTRY</span>
+                <span>PLAYER</span>
+                <span>PTS AVG</span>
+            </p>
+            <ul class="float-left list-unstyled">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+            </ul>
+            <ul class="float-left list-unstyled">
+                <li>冯珊珊</li>
+                <li>刘文博</li>
+                <li>刘钰</li>
+                <li>刘依一</li>
+                <li>鲁婉遥</li>
+                <li>林希妤</li>
+            </ul>
+            <ul class="float-left list-unstyled">
+                <li>40.9528</li>
+                <li>23.9183</li>
+                <li>23.4269</li>
+                <li>12.9033</li>
+                <li>10.5669</li>
+                <li>9.6768</li>
+            </ul>
+        </div>  
+        
+        <div  id=content3 style="display: none">
+            <div class="paiming1 pb-4">
+                <p class="float:left h4 pl-4 font-weight-bold mt-3 w-50">中国男子世界排名</p>
+                <p class="float:right  w-25 font-weight-bold">最后出版</p>
+                <p class="float:right  w-25">2019年05月07日-第18周</p>
+            </div>
+            <p>
+                <span>POS</span>
+                <span>CTRY</span>
+                <span>PLAYER</span>
+                <span>PTS AVG</span>
+            </p>
+            <ul class="float-left list-unstyled">
+                <li>39</li>
+                <li>225</li>
+                <li>279</li>
+                <li>317</li>
+                <li>488</li>
+                <li>632</li>
+            </ul>
+            <ul class="float-left list-unstyled">
+                <li>李昊桐</li>
+                <li>吴阿顺</li>
+                <li>张新军</li>
+                <li>袁也淳</li>
+                <li>窦泽成</li>
+                <li>梁文冲</li>
+            </ul>
+            <ul class="float-left list-unstyled">
+                <li>2.9364</li>
+                <li>0.7514</li>
+                <li>0.605</li>
+                <li>0.5216</li>
+                <li>0.325</li>
+                <li>0.2315</li>
+            </ul>
+        </div> 
+
+        <div  id=content4 style="display: none">
+            <div class="paiming1 pb-4">
+                <p class="float:left h4 pl-4 font-weight-bold mt-3 w-50">中国女子世界排名</p>
+                <p class="float:right  w-25 font-weight-bold">最后出版</p>
+                <p class="float:right  w-25">2019年05月07日-第18周</p>
+            </div>
+            <p>
+                <span>POS</span>
+                <span>CTRY</span>
+                <span>PLAYER</span>
+                <span>PTS AVG</span>
+            </p>
+            <ul class="float-left list-unstyled">
+                <li>21</li>
+                <li>47</li>
+                <li>125</li>
+                <li>146</li>
+                <li>177</li>
+                <li>206</li>
+            </ul>
+            <ul class="float-left list-unstyled">
+                <li>冯珊珊</li>
+                <li>刘钰</li>
+                <li>鲁婉遥</li>
+                <li>阎菁</li>
+                <li>林希妤</li>
+                <li>刘文博</li>
+            </ul>
+            <ul class="float-left list-unstyled">
+                <li>3.3644</li>
+                <li>1.9631</li>
+                <li>0.8299</li>
+                <li>0.7258</li>
+                <li>0.5386</li>
+                <li>0.4624</li>
+            </ul>
+        </div> 
+
+    </div>
+
+
+    <div id="lift"><!--固定栏-->
+			<ul class="lift_list">
+				<li class="lift_item">
+					<a href="javascript:;" class="lift_btn">
+						<span class="lift_btn_txt">热门球场</span>
+					</a>
+				</li>
+				<li class="lift_item">
+					<a href="javascript:;" class="lift_btn">
+						<span class="lift_btn_txt">高球商品</span>
+					</a>
+				</li>
+				<li class="lift_item">
+					<a href="javascript:;" class="lift_btn">
+						<span class="lift_btn_txt">球手排名</span>
+					</a>
+				</li>
+			</ul>
+    </div>
+
+   
+</div>
+ <footer id="footer"></footer>
+
+    <script src="../GOLFJS/jquery.min.js"></script>
+    <script src="../GOLFJS/popper.min.js"></script>
+    <script src="../GOLFJS/bootstrap.min.js"></script>
+
+   
+    <script src="../GOLFJS/header.js"></script>
+    <script src="../GOLFJS/footer.js"></script>
+    <script src="../GOLFJS/section.js"></script>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

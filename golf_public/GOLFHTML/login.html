@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../GOLFCSS/bootstrap.css">
+  <link rel="stylesheet" href="../GOLFCSS/login.css">
+    <style>
+        body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td, img {
+            margin: 0;
+            padding: 0;
+        }
+
+        i, em {
+            font-style: normal;
+        }
+
+        a {
+            text-decoration: none !important;
+        }
+
+       
+    </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="h-25 w-100">
+      <img src="../img/golf2/1.jpg" class=" vertical-align" alt="">
+      <span class="word-wrap">惠民高尔夫</span>
+      <span class="text-white h1  ">欢&nbsp;&nbsp;&nbsp;迎&nbsp;&nbsp;&nbsp;登&nbsp;&nbsp;&nbsp;录</span>
+      <a href="section.html" style="color:rgb(104, 9, 228);font-size:30px">&nbsp;&nbsp;&nbsp;&nbsp;返&nbsp;回&nbsp;首&nbsp;页</a>
+    </div>
+    <div class="bground">
+      <div  class="pstion">
+        <ul class="list-unstyled  text-warning font-weight-bold " id="app">
+          <li class="ml-3 pt-5 font-size1">登录惠民高尔夫</li>
+          <li class="float-right"><a href="register.html">新用户注册</a></li>
+          <li class="clear-both text-center mt-5 ">
+             <input type="text" class="input2 una" v-model="uname" placeholder="请输入您的用户名">
+          </li>
+          <li class="text-center mt-5 mb-5">
+            <input type="password" class="input2 upw" v-model="upwd" placeholder="请输入您的密码">
+          </li>
+          <li class="zidong"> 
+             <label ></label><input type="checkbox" >自动登录</label> 
+          </li>
+          <li> 
+            <a href="" class="password">忘记密码</a>
+          </li>
+          <li class="text-center"> 
+            <button @click="btn" id="denglu" class="btn btn-info btn-lg">登录</button>
+          </li>
+        </ul>
+      </div>
+     
+    </div>
+</div>
+ <footer id="footer"></footer>
+
+ <script src="../GOLFJS/jquery.min.js"></script>
+ <script src="../GOLFJS/popper.min.js"></script>
+ <script src="../GOLFJS/bootstrap.min.js"></script>
+ <script src="../GOLFJS/footer.js"></script>
+ <script src="../GOLFJS/axios.min.js"></script>
+ <script src="../GOLFJS/vue.js"></script>
+ <script src="../GOLFJS/vue-router.js"></script>
+ <script src="../GOLFJS/login.js"></script>
+</body>
+</html>

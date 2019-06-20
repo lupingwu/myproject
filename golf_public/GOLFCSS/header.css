@@ -1,0 +1,377 @@
+.vertical-align{           /*logo图片局中显示*/
+    vertical-align: middle;
+    margin: -6rem 0 0 1.5rem;
+    width:50%;
+}
+.word-wrap{             /*惠民高尔夫样式 垂直显示*/
+    display: inline-block;
+    color:#fff;
+    width:1rem;
+    font-size: 1rem;
+    word-wrap: break-word;
+    letter-spacing: 0.3rem;
+}
+.row.justify-content-between{/*头部s背景渐变色*/
+    background-image: linear-gradient(180deg,#fff 0%,#78e1f7 25%,
+    #2386ca 50%,#1762b5 75%,
+    #07178a 100%);
+}
+.border-success.border-radius{            /*搜索框样式*/
+    width:300px;
+    height: 45px;
+    color: aqua;
+    font-size: 1rem;
+    font-weight:600;
+    border-radius: 3px;
+    margin-top: 33px;
+    margin-left: -75px;
+    outline: 0;
+}
+.border-success.border-radius+a>img{         /*搜索图片样式*/
+    width:44px;
+    margin-left: -7px;
+    margin-top: -6px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.myweather>span:nth-child(2){
+    margin-left: 3.5rem;      /*天气和图片的样式*/
+}
+.myweather{
+    height: 120px;
+    line-height: 120px;
+}
+.myweather img{
+    margin-left: 193px;
+    margin-top:-233px;
+}
+a[data-img="tq"]>img{/*天气图片旋转样式*/
+        margin-left: 193px;
+        transition: 0.1s linear;
+        position: relative;
+        z-index: 335;
+}
+a[data-img="tq"]>img:hover{
+        margin-left: 203px;
+}
+.hmgrf{/*右边小图标绝对定位*/
+    top:60px;
+    right:40px;
+    display: none;
+}
+.hyhl{/*增加的类在字体上面*/
+    color:#f00;
+    font-size: 20px;
+}
+
+.backhome{/*ul绝对定位*/
+    position: fixed;
+    top:0;
+    left: 0;
+    right:0;
+    z-index: 800;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    content:"";
+}
+.breadcrumb.text-white{/*ul的背景颜色*/
+    background-color: #69f1fb;
+    margin-top: 200px;
+}
+
+.text-white>li:nth-child(1),/*父亲的相对定位*/
+.text-white>li:nth-child(2),
+.text-white>li:nth-child(3),
+.text-white>li:nth-child(4),
+.text-white>li:nth-child(5),
+.text-white>li:nth-child(6){
+    position: relative;
+}
+
+.text-white>li:nth-child(1)>a,/*a的初始样式*/
+.text-white>li:nth-child(2)>a,
+.text-white>li:nth-child(3)>a,
+.text-white>li:nth-child(4)>a,
+.text-white>li:nth-child(5)>a,
+.text-white>li:nth-child(6)>a{
+    width:64px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+.text-white>li:first-child>ul{/*下拉菜单第一个首页的ul初始样式*/
+       position: absolute;
+       width:1256px;
+        height: 0px;
+        z-index: 200;
+        background-color: #fff;
+       
+      
+}
+.text-white>li:first-child>ul:hover{/*放在ul上ul的状态*/
+    position: absolute;
+    width:1256px;
+     height: 257px;
+     z-index: 200;
+     background-color: #fff;
+     border:2px solid #07178a;
+     transition: all 0.5s linear;
+}
+.text-white>li:first-child>a:hover+div+ul {/*放在a上ul的状态*/
+    position: absolute;
+    width:1256px;
+     height: 257px;
+     z-index: 200;
+     background-color: #fff;
+     border:2px solid #07178a;
+     transition: all 0.5s linear;
+}
+
+
+
+.text-white>li:first-child>a,
+.text-white>li:nth-child(2)>a,
+.text-white>li:nth-child(3)>a,
+.text-white>li:nth-child(4)>a,
+.text-white>li:nth-child(5)>a,
+.text-white>li:nth-child(6)>a{/*a的初始状态*/
+    background-color: #69f1fb;
+   
+    
+   transition: all 0.5s linear;
+}
+
+.text-white>li:first-child>a:hover,
+.text-white>li:nth-child(2)>a:hover,
+.text-white>li:nth-child(3)>a:hover,
+.text-white>li:nth-child(4)>a:hover,
+.text-white>li:nth-child(5)>a:hover,
+.text-white>li:nth-child(6)>a:hover{/*放在a上a的状态*/
+    background-color: #07178a;
+    color:red;
+    opacity: 1;
+   
+}
+
+.back{/*移入ul上a增加后的公共样式*/
+    background-color: #07178a !important;
+    color:red;
+}
+
+
+
+.text-white>li:nth-child(2)>ul{/*第二个ul*/
+    padding-top:0px !important;
+    margin-left: -215px;
+    position: absolute;
+    width:1256px;
+     height: 0px;
+     z-index: 310;
+     background-color: #fff;
+    
+}
+.text-white>li:nth-child(2)>a:hover+div+ul{/*移到第二个a上ul的样式*/
+    margin-left: -215px;
+    position: absolute;
+    width:1256px;
+     height: 257px;
+     z-index: 310;
+     background-color: #fff;
+     border:2px solid #07178a;
+     transition: all 0.5s linear;
+}
+.text-white>li:nth-child(2)>ul:hover{/*移到第二个ul上ul的样式*/
+    margin-left: -215px;
+    position: absolute;
+    width:1256px;
+     height: 257px;
+     z-index: 310;
+     background-color: #fff;
+     border:2px solid #07178a;
+     transition: all 0.5s linear;
+}
+
+
+.text-white>li:nth-child(3)>ul{/*第三个ul*/
+    margin-left: -450px;
+    margin-top: 0px;
+    position: absolute;
+    width:1256px;
+     height: 0px;
+     z-index: 310;
+     background-color: #fff;
+     overflow:hidden;
+     
+     
+}
+.text-white>li:nth-child(3)>a:hover+div+ul{/*第三个ul*/
+    margin-left: -450px;
+    margin-top:0px;
+    position: absolute;
+    width:1256px;
+     height: 257px;
+     z-index: 310;
+     background-color: #fff;
+     border:2px solid #07178a; 
+     transition: all 0.5s linear;
+}
+.text-white>li:nth-child(3)>ul:hover{/*第三个ul*/
+    margin-left: -450px;
+    margin-top:0px;
+    position: absolute;
+    width:1256px;
+     height: 257px;
+     z-index: 310;
+     background-color: #fff;
+     border:2px solid #07178a; 
+     transition: all 0.5s linear;
+}
+
+
+.text-white>li:nth-child(4)>ul{/*第四个ul*/
+    margin-left: -686px;
+    margin-top: 0px;
+    position: absolute;
+    width:1256px;
+     height: 0px;
+     z-index: 320;
+     background-color: #fff;
+   
+  
+}
+.text-white>li:nth-child(4)>a:hover+div+ul{/*第四个ul*/
+    margin-left: -686px;
+    margin-top: 0px;
+    position: absolute;
+    width:1256px;
+     height: 257px;
+     z-index: 320;
+     background-color: #fff;
+     border:2px solid #07178a; 
+    
+     transition: all 0.5s linear;
+}
+.text-white>li:nth-child(4)>ul:hover{/*第四个ul*/
+    margin-left: -686px;
+    margin-top: 0px;
+    position: absolute;
+    width:1256px;
+     height: 257px;
+     z-index: 320;
+     background-color: #fff;
+     border:2px solid #07178a; 
+     
+     transition: all 0.5s linear;
+}
+
+
+
+.text-white>li:nth-child(5)>ul{/*第五个ul*/
+    margin-left: -921px;
+    position: absolute;
+    width:1256px;
+     height: 0px;
+     z-index: 830;
+     background-color: #fff;
+   
+    
+}
+.text-white>li:nth-child(5)>a:hover+div+ul{/*第五个ul*/
+    margin-left: -921px;
+    position: absolute;
+    width:1256px;
+     height: 257px;
+     z-index: 830;
+     background-color: #fff;
+     border:2px solid #07178a; 
+    
+     transition: all 0.5s linear;
+}
+.text-white>li:nth-child(5)>ul:hover{/*第五个ul*/
+    margin-left: -921px;
+    position: absolute;
+    width:1256px;
+     height: 257px;
+     z-index: 830;
+     background-color: #fff;
+     border:2px solid #07178a; 
+     
+     transition: all 0.5s linear;
+}
+
+
+
+.text-white>li:nth-child(6)>ul{/*第六个ul*/
+    margin-left: -1156px;
+    margin-top:0px;
+    position: absolute;
+    width:1256px;
+     height: 0px;
+     z-index: 840;
+     background-color: #fff;
+     opacity: 0;
+     
+}
+.text-white>li:nth-child(6)>a:hover+div+ul{/*第六个ul*/
+    margin-left: -1156px;
+    margin-top:0px;
+    position: absolute;
+    width:1256px;
+     height: 257px;
+     z-index: 840;
+     background-color: #fff;
+     border:2px solid #07178a; 
+     opacity: 1;
+     transition: all 0.5s linear;
+}
+.text-white>li:nth-child(6)>ul:hover{/*第六个ul*/
+    margin-left: -1156px;
+    margin-top:0px;
+    position: absolute;
+    width:1256px;
+     height: 257px;
+     z-index: 840;
+     background-color: #fff;
+     border:2px solid #07178a; 
+     opacity: 1;
+     transition: all 0.5s linear;
+}
+
+
+.jiangmen{
+    color:#69f1fb;
+    font-size: 25px;
+}
+.jiangmen:hover{
+    color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

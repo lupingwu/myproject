@@ -1,0 +1,202 @@
+
+
+.imgg1,
+.imgg2{/*第一二张图片的高度*/
+  height: 403.97px;
+}
+.imgg1:hover,
+.imgg2:hover{
+      cursor: pointer;
+}
+.golfball{/*小标题的高度和背景色*/
+  height: 2rem;
+  background-color: #9f9;
+  line-height: 2rem;
+}
+
+
+.heise{/*第二个图片阴影*/
+  top:0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  z-index: 100;
+}
+.heise:hover{
+      background-color: rgba(0,0,0,0.4);
+      cursor: pointer;
+}
+.cenxiao{/*遮罩层动态效果*/
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  transition: all 0.5s linear;
+  background-color: rgba(180, 18, 139,0.2);
+  z-index: 0;
+}
+.cenxiaoht{
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ background-color: rgba(184, 219, 26,0.4);
+  z-index: 10;
+}
+.cenda{
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 110;
+}
+
+.ballheight{/*小方格样式*/
+  height: 25rem;
+  background-image:linear-gradient(180deg,#3f3 0%,#0ff 75%,#f3c 100%); 
+  border:1px solid #00f;
+}
+.ballheight>ul>li img{/*图片宽度 过渡*/
+  width: 15.3rem;
+  transition: transform 0.3s linear;
+}
+.ballheight>ul>li img:hover{
+  transform: scale(1.1);
+}
+
+.my-honma.list-unstyled>li:nth-child(2)>a{/*人民币样式*/
+  font-size: 2rem;
+  color:blue;
+  margin-left: 43px;
+}
+.list-unstyled>li:nth-child(3){/*字体斜体*/
+  font-style: italic;
+}
+.list-unstyled>li:nth-child(4)>input{/*input的样式*/
+  width:2rem;
+  text-align: center;
+}
+.my-tianjia{
+  margin-left: 28px;
+}
+
+
+
+.my_big>span:first-child,.my_big>span:nth-child(3){/*两个+-的样式*/
+  display: inline-block;
+  width:1.5rem;
+  height: 1.7rem;
+  margin-right: -5px;
+  padding-top:2px ;
+  margin-left: 13px;
+  background-color: #ff0;
+  text-align: center;
+  color:#f00;
+  font-weight: 1000;
+}
+
+[data-dian="wo"],[data-dian="me"]{/*鼠标移入变小手*/
+  cursor: pointer;
+}
+.my_big>span:nth-child(3){/*+号的左外边距*/
+  margin-left: -4px;
+}
+.my_big>a{/*让a加入购物车的样式跑中间*/
+  margin:7px 0 0 38px;
+}
+.my_big>span:first-child{/*让-号跑到中间*/
+  margin-left: 42px;
+}
+.my_img2{/*图片的大小*/
+  width:225.72px !important;
+  height: 190px !important;
+}
+.my_img3{
+  width:222.71px !important;
+  height:190px !important;
+}
+.my_ul{
+  width:221.71px !important;
+  height:190px !important;
+}
+.my_overflow>div:first-child>div,
+.my_overflow>div:nth-child(2)>div,
+.my_overflow>div:nth-child(3)>div,
+.my_overflow>div:nth-child(4)>div,
+.my_overflow>div:nth-child(5)>div,
+.my_overflow>div:nth-child(6)>div{/*图片溢出隐藏*/
+  overflow: hidden;
+}
+.my_overflow>div:first-child>div:hover,
+.my_overflow>div:nth-child(2)>div:hover,
+.my_overflow>div:nth-child(3)>div:hover,
+.my_overflow>div:nth-child(4)>div:hover,
+.my_overflow>div:nth-child(5)>div:hover,
+.my_overflow>div:nth-child(6)>div:hover{
+    border:1px solid #f00;
+}
+/*固定定位购物车的样式*/
+.my_big1{
+  width:230px;
+  height: 28px;
+  background: #ce15c5;
+  padding-left: 10px;
+  color:#fff;
+}
+.my_big1+div{
+  float: left;
+  width:155px;
+  height: 46px;
+  line-height: 46px;
+  background: #912291;
+  border-top:2px dotted #06b16f;
+}
+div.my_big2{
+  float:left;
+  width: 75px;
+  height: 46px;
+  background: #0aa1ed;
+  border-top:2px dotted #e6e6e6;
+}
+div.my_big2>a{
+  display: inline-block;
+  width: 100%;
+  margin-top:9px ;
+  margin-left: 6px;
+  color:#fff;
+  font:21px simhei;
+}
+.bjys{/**点击要增加的两个类**/
+  background-color: #fff !important;
+}
+.ztys{
+  color:#0aa1ed !important;
+}
+.my_big1+div>img{
+  margin-left: -35px;
+  margin-top: -10px;
+}
+.my_big1+div:nth-child(2){
+  color: #fff;
+  font-size: 21px;
+}
+.my_big1+div>span:last-child{
+  color: #fff;
+  font-size: 19px;
+  margin-right: -10px;
+  margin-left: 9px;
+
+}
+.my_big3{
+  position: fixed;
+  top:200px;
+  right: 132px;
+}
+
+
+
+
+
+
+
+
