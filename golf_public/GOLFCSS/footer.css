@@ -1,0 +1,52 @@
+.bgcolor{                 /*图片处的背景色*/
+   background-color: aquamarine;
+}
+.bgcolor>li:nth-child(1)>img,
+.bgcolor>li:nth-child(2)>img,
+.bgcolor>li:nth-child(3)>img,
+.bgcolor>li:nth-child(4)>img{
+  height: 117.27px;
+}
+.bgcolor>li>img:hover{
+  width:80% !important;
+  height: 117.27px;
+}
+.bgcolorfooter{    /*最底下背景色*/
+  background-color: #333;
+}
+.fontcolor{     /*白色字体公共样式*/
+  color:#fff ;
+}
+.fontcolortwo{  /*第二中字体公共式*/
+  color:#096;
+}
+.bgcolorfooter+p{
+  background-color: #212121;
+}
+.wximg>img{/*两个图片的样式*/
+    width:93px !important;
+    margin-top:36px;
+}
+.my-yundong{/*运动知识的字体*/
+  font-style:normal ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

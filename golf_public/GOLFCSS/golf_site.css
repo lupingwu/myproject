@@ -1,0 +1,435 @@
+
+.my-fixed{/*右边绝对定位样式*/
+  position: fixed;
+  top:55px;
+  right: 10px;
+  z-index: 10;
+}
+
+.my-fixed>p{
+ display: none;
+  width:50px;
+  height: 100px;
+  line-height: 45px;
+  padding: 5px;
+  color:#fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 5px;
+  background-color: rgb(26, 201, 102);
+}
+.my-fixed>p>img{
+  width:35px;
+  height: 60px;
+}
+.fanhui:hover{
+  cursor: pointer;
+  background-color: #f0f;
+}
+.jiayi{
+  color:#0ff !important;
+  background-color: #f0f !important;
+  cursor: pointer;
+}
+.kefu{/*客服稍后的样式*/
+  top:25px;
+  left:-100px;
+  width:100px ;
+  height: 50px ;
+  line-height: 50px;
+  color:#fff;
+  font-size: 20px;
+  overflow: hidden;
+  text-align: center;
+  background-color: rgb(182, 157, 17) ;
+}
+.dingchang{/*二维码的样式*/
+    top:105px;
+    left:-200px;
+    width:200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    background-color: #0f0;
+}
+.dingchang>img{
+  width:150px;
+  height: 150px;
+}
+
+
+.jjwidth{  /**页面宽度**/
+  width:1330px ; 
+  position: relative;
+  z-index: 0;
+}
+.container-fluid{
+  position: relative;
+  z-index: 0;
+}
+
+.zongwidth>ul:nth-child(2)>li>p:nth-child(2)>img{/**天气图片尺寸**/
+  width:26px ;
+  height: 26px ;
+}
+.zongwidth .breadcrumb-item+.breadcrumb-item::before{/**面包屑导航**/
+  content:"";
+}
+.zongwidth>ul:nth-child(2){/**ul的背景颜色**/
+  background-color: transparent;
+}
+.zongwidth>ul:nth-child(2)>li+li{/**后四个li移动对齐**/
+  position: relative;
+  z-index: 0;
+  top:0px;
+  margin-left: 30px;
+}
+.xialai{
+  margin-top: 24px;
+}
+.zongwidth>ul:nth-child(2)>li>p:not(:nth-child(3)){/**日期图片居中对齐**/
+  text-align: center;
+}
+.zongwidth>p:first-child{/*字的背景颜色*/
+  width:480px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size:32px;
+  font-weight: 500;
+  
+  padding-left: 15px;
+}
+
+.luobobo>div:first-child{/**轮播图div的宽度**/
+  width:929px;
+ }
+
+
+.luobobo>div:nth-child(2){/*第二块文字描述大div的宽度*/
+  width:380px;
+ } 
+.luobobo>div:nth-child(2)>div:first-child{/*第二块文字描述的宽度*/
+  width:380px;
+  height: 530px;
+  background-color: #f6f6f9;
+}
+
+
+
+.bigwidth{   /**轮播图宽高**/
+  width:929px;
+  height: 500px;
+}
+.carousel-control-next,
+.carousel-control-prev{/*左右箭头的样式*/
+  width:5%;height:10%;
+  background-color:#f0f;
+  top:45%;
+  border-radius:50%;
+}
+.carousel-control-prev{
+  left:1%;
+}
+.carousel-control-next{
+  right:1%;
+}
+
+.site-ul{  /**右边一排字的样式**/
+  margin-left: 10px;
+  margin-right: 10px;
+  
+  
+}
+.site-ul>li:first-child{
+  font-weight: 600;
+}
+.site-li{  /**两种字体样式**/
+  color:#666;
+  font-size: 13px;
+}
+.site-li2{
+  color:#333;
+  font-size:12px;
+  font-weight: 500;
+}
+.site-ul>li:first-child{
+  margin-left: 3px;
+}
+
+
+.site-ul>li:nth-child(18),
+.site-ul>li:nth-child(16),
+.site-ul>li:nth-child(14),
+.site-ul>li:nth-child(12),
+.site-ul>li:nth-child(10),
+.site-ul>li:nth-child(6),
+.site-ul>li:nth-child(4),
+.site-ul>li:nth-child(2),
+.site-ul>li:nth-child(20)>span:first-child,
+.site-ul>li:nth-child(8)>span:first-child{/*球场模的左外边距*/
+  margin-left: 28px;
+}
+
+.site-ul>li:nth-child(17),
+.site-ul>li:nth-child(11),
+.site-ul>li:nth-child(7),
+.site-ul>li:nth-child(15),
+.site-ul>li:nth-child(21)>span:first-child,
+.site-ul>li:nth-child(19)>span:first-child,
+.site-ul>li:nth-child(13)>span:first-child,
+.site-ul>li:nth-child(3)>span:first-child,
+.site-ul>li:nth-child(5)>span:first-child{/*式的边距*/
+  margin-left: 53px;
+}
+
+.site-ul>li:nth-child(21)>span:nth-child(2),
+.site-ul>li:nth-child(20)>span:nth-child(2),
+.site-ul>li:nth-child(19)>span:nth-child(2),
+.site-ul>li:nth-child(13)>span:nth-child(2),
+.site-ul>li:nth-child(8)>span:nth-child(2),
+.site-ul>li:nth-child(3)>span:nth-child(2),
+.site-ul>li:nth-child(5)>span:nth-child(2){
+  margin-left: 18px;
+}
+.site-ul>li:nth-child(9){/*设计的外边距*/
+  margin-left: 41px;
+}
+.site-ul>li:nth-child(18){
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top:2px solid #ceced5;
+}
+
+.my-bb{/*轮播图下蓝线的样式*/
+    height: 3px;
+    width:100%;
+    
+   background-color:  #0f0;
+}
+
+.my-bb+p{/*打球时间的样式*/
+  height: 40px;
+  line-height: 40px;
+  padding-left: 20px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.my-bb+p>input{/*两个input的样式*/
+  margin-left: 40px;
+  height: 25px;
+}
+
+.luobobo>div:nth-child(1)>p:nth-child(4){/*供应商家行的样式*/
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+    background-color: #f0f0f0;
+}
+.luobobo>div:nth-child(1)>p:nth-child(4)>span:first-child{
+  margin-left: 22px;
+}
+.luobobo>div:nth-child(1)>p:nth-child(4)>span:nth-child(2){
+  margin-left: 84px;
+}
+.luobobo>div:nth-child(1)>p:nth-child(4)>span:nth-child(3){
+  margin-left: 137px;
+}
+.luobobo>div:nth-child(1)>p:nth-child(4)>span:nth-child(4){
+  margin-left: 237px;
+}
+
+.luobobo>div:nth-child(1)>p:nth-child(5){/*当前时间行样式*/
+  height: 35px;
+  line-height: 35px;
+  font-size: 13px;
+  padding-left: 25px;
+}
+
+.luobobo>div:nth-child(1)>div:nth-child(6){/*球场简介样式*/
+      margin-top: 25px;
+      height: 240px;
+      padding: 20px;
+      border-top:2px solid #ceced5;
+      background-color:#f6f6f9 ;
+}
+.luobobo>div:nth-child(1)>div:nth-child(6)>p:first-child,
+.luobobo>div:nth-child(1)>div:nth-child(7)>p:first-child,
+.luobobo>div:nth-child(1)>div:nth-child(8)>p:first-child,
+.luobobo>div:nth-child(1)>div:nth-child(9)>p:first-child{
+  font-size: 15px;
+  font-weight: 700;
+}
+.luobobo>div:nth-child(1)>div:nth-child(6)>p:nth-child(2),
+.luobobo>div:nth-child(1)>div:nth-child(7)>p:nth-child(2),
+.luobobo>div:nth-child(1)>div:nth-child(8)>p:nth-child(2){
+  font-size: 15px;
+  color:#666;
+}
+
+.luobobo>div:nth-child(1)>div:nth-child(7){/*球场设施的样式*/
+  height: 140px;
+  margin-top: 15px;
+  padding: 20px;
+  border-top:2px solid #ceced5;
+  background-color:#f6f6f9 ;
+}
+.luobobo>div:nth-child(1)>div:nth-child(8){/*球道详情的样式*/
+  height: 120px;
+  margin-top: 10px;
+  padding:25px;
+  border-top:2px solid #ceced5;
+  background-color: #f6f6f9;
+}
+.luobobo>div:nth-child(1)>div:nth-child(8)>p:nth-child(2)>span{/*圆圈1的样式*/
+  display: inline-block;
+  width:25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border:1px solid #3862e5;
+  border-radius: 50%;
+
+}
+.luobobo>div:nth-child(1)>div:nth-child(8)>p:nth-child(2)>span:hover{
+      background-color: #3862e5;
+      color:#fff;
+      cursor: pointer;
+}
+.luobobo>div:nth-child(1)>div:nth-child(8)>p:nth-child(2){
+      margin-top: 20px;
+
+}
+
+.luobobo>div:nth-child(1)>div:nth-child(9){/*第九个 球场点评的样式*/
+        height: 300px;
+   
+        margin-top: 10px;
+        padding:25px;
+        border-top:2px solid #ceced5;
+        background-color: #f6f6f9;
+}
+.luobobo>div:nth-child(1)>div:nth-child(9)>p:nth-child(2)>span:nth-child(2),
+.luobobo>div:nth-child(1)>div:nth-child(9)>p:nth-child(2)>span:nth-child(4),
+.luobobo>div:nth-child(1)>div:nth-child(9)>p:nth-child(2)>span:nth-child(6),
+.luobobo>div:nth-child(1)>div:nth-child(9)>p:nth-child(2)>span:nth-child(8){/*第一行五角星*/
+  display: inline-block;
+  width:78px;
+  height: 13px;
+  background-image: url(../img/golf2/iconlist_1.png);
+  background-position: -183px -240px;
+}
+
+.luobobo>div:nth-child(1)>div:nth-child(9)>p:nth-child(2)>span:nth-child(2):hover,
+.luobobo>div:nth-child(1)>div:nth-child(9)>p:nth-child(2)>span:nth-child(4):hover,
+.luobobo>div:nth-child(1)>div:nth-child(9)>p:nth-child(2)>span:nth-child(6):hover,
+.luobobo>div:nth-child(1)>div:nth-child(9)>p:nth-child(2)>span:nth-child(8):hover{
+  display: inline-block;
+  width:78px;
+  height: 13px;
+  background-image: url(../img/golf2/iconlist_1.png);
+  background-position:-106 -240px;
+}
+.luobobo>div:nth-child(1)>div:nth-child(9)>p:nth-child(3)>textarea::placeholder{
+  font-size: 14px;
+  color:#0ff;
+  font-weight: 700;
+}
+.luobobo>div:nth-child(1)>div:nth-child(9)>p:nth-child(3)>textarea{
+  color:#0f0;
+  font-size: 20px;
+  font-weight: 800;
+}
+/*提交点评按钮的样式*/
+.luobobo>div:nth-child(1)>div:nth-child(9)>p:nth-child(4){
+        width:100px;
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+        color:#fff;
+        font-weight: 1000;
+        font-size: 18px;
+        background-color: rgb(15, 65, 172);
+}
+.luobobo>div:nth-child(1)>div:nth-child(9)>p:nth-child(4):hover{
+  cursor: pointer;
+  background-color: #00f;
+}
+
+.luobobo>div:nth-child(1)>div:nth-child(9)>p:nth-child(5)>span:nth-child(2){
+  display: inline-block;
+  width:78px;
+  height: 13px;
+  background-image: url(../img/golf2/iconlist_1.png);
+  background-position:-106 -240px;
+ 
+}
+
+
+
+
+
+
+.luobobo>div:nth-child(2)>div:nth-child(2){
+  height: 300px;
+  
+}
+.hang{
+  height: 300px;
+  width:100%;
+}
+.conta{/*第一个视频*/
+  width:100%;
+  height: 300px;
+}
+#m3{
+  width:380px;
+  height: 300px;
+  top:0;
+  left:0;
+  z-index: 100;
+}
+#ctrl{
+  width:64px;
+  height: 64px;
+  top:50%;
+  left:50%;
+  margin-left: -32px;
+  margin-top: -32px;
+  z-index: 200;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

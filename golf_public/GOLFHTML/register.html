@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../alifont/iconfont.css">
+  <link rel="stylesheet" href="../GOLFCSS/bootstrap.css">
+  <link rel="stylesheet" href="../GOLFCSS/Animate.css">
+  <link rel="stylesheet" href="../GOLFCSS/register.css">
+  <style>
+      body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td, img {
+          margin: 0;
+          padding: 0;
+      }
+
+      i, em {
+          font-style: normal;
+      }
+
+      a {
+          text-decoration: none !important;
+      }
+
+     
+  </style>
+</head>
+<body>
+  
+  <div class="container-fluid">
+    <div class="h-25 w-100">
+      <img src="../img/golf2/1.jpg" class=" vertical-align" alt="">
+      <span class="word-wrap">惠民高尔夫</span>
+      <span class="text-warning h1  ">欢&nbsp;&nbsp;&nbsp;迎&nbsp;&nbsp;&nbsp;注&nbsp;&nbsp;&nbsp;册</span>
+      <a href="section.html" style="color:brown;font-size:25px">&nbsp;&nbsp;&nbsp;&nbsp;返&nbsp;回&nbsp;首&nbsp;页</a>
+    </div>
+    <div class="bground">
+      <div class="pstion">
+          <ul class="list-unstyled  text-warning font-weight-bold ">
+            <li class="ml-5 pt-5 font-size1">新用户注册</li>
+            <li class="float-right"> <a href="login.html">直接登录</a> </li>
+            <li class="clear-both text-center mt-5 ">
+              用户名：<input type="text" placeholder="请输入用户名" id="golfuname" class="pl-3 inputall" autofocus>
+            </li>
+            <div id="uname-msg" class="mt-2" ></div>
+            <li class="text-center mt-2 ">
+              登录密码：<input type="password" placeholder="请输入密码" id="golfupwd" class="pl-3 inputall">
+            </li>
+            <div id="upwd-msg" class="mt-2"></div>
+            <li class="text-center mt-2">
+              确认密码：<input data-con="pwd" type="password" placeholder="请确认密码" class="pl-3 inputall" required>
+            </li>
+            <div id="upwd-qie" class="mt-2"></div>
+            <li class="text-center mt-2">
+              邮箱地址：<input type="text" placeholder="请输入邮箱地址" id="golfemail" class="pl-3 inputall">
+            </li>
+            <div id="email-msg" class="mt-2"></div>
+            <li class="text-center mt-2">
+              手机号码：<input type="text" placeholder="请输入您的手机号" id="golfphone" class="pl-3 inputall">
+            </li>
+            <div id="phone-msg" class="mt-2"></div>
+            <div class="verify-code">
+               <input type="text" name="c-code" placeholder="- 点击获取验证码 -">
+                <div class="code-box" id="c-box">
+                  <span style="display: inline-block; color: rgb(71, 119, 154); transform: skewY(27deg); width: 10px; height: 30px; font-size: 20px;">8
+                  </span>
+                  <span style="display: inline-block; color: rgb(64, 172, 12); transform: skewY(-40deg); width: 10px; height: 30px; font-size: 20px;">f
+                  </span>
+                  <span style="display: inline-block; color: rgb(48, 167, 59); transform: skewY(35deg); width: 10px; height: 30px; font-size: 20px;">w
+                  </span>
+                  <span style="display: inline-block; color: rgb(137, 20, 112); transform: skewY(34deg); width: 10px; height: 30px; font-size: 20px;">q
+                  </span>
+              </div>
+            <!-- <li class="text-center mt-2">
+              验证码：<input type="text" placeholder="请输入验证码">
+              <span>6715</span>
+              <button class="shuaxin">刷新</button>
+            </li>
+            <div id="shuxin-msg" class="mt-2"></div> -->
+            <li class="sex_width">
+              性别： 
+              <input type="radio" value="1" name="sex" id="sex1" checked class="pl-1 ">
+              <label for="sex1">男</label> 
+              <input type="radio" value="0" name="sex" id="sex2" class="pl-1">
+              <label for="sex2">女</label> 
+            </li>
+            <li>
+              <div id="box" onselectstart="return false;">
+                <div class="bgColor"></div>
+                <div class="txt" >滑动解锁</div>
+                <!--给i标签添加上相应字体图标的类名即可-->
+                <div class="slider"><i class="iconfont icon-icon_double-right"></i></div>
+              </div> 
+            </li>
+            <li class="sex_width">
+              <label >
+              <input type="checkbox">我同意本站的使用条款
+            </label>
+            </li>
+            <li class="text-center mt-3">
+              <button id="tjzc" class="btn btn-primary">提交注册信息</button>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+  <footer id="footer"></footer>
+
+  <script src="../GOLFJS/jquery.min.js"></script>
+  <script src="../GOLFJS/popper.min.js"></script>
+  <script src="../GOLFJS/bootstrap.min.js"></script>
+  <script src="../GOLFJS/vue.js"></script>
+  <script src="../GOLFJS/vue-router.js"></script>
+  <script src="../GOLFJS/axios.min.js"></script>
+  <script src="../GOLFJS/footer.js"></script>
+  <script src="../GOLFJS/register.js"></script>
+ 
+</body>
+</html>

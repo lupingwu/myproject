@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../GOLFCSS/bootstrap.css">
+  <link rel="stylesheet" href="../GOLFCSS/golf_ball_detail2.css">
+  <style>
+      body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td, img {
+          margin: 0;
+          padding: 0;
+      }
+
+      i, em {
+          font-style: normal;
+      }
+
+      a {
+          text-decoration: none !important;
+      }
+
+     
+  </style>
+</head>
+<body>
+  <header id="header"></header>
+    <div class="dingbu d-flex justify-content-around flex-column" data-ding="bu">
+        <p class="d-flex justify-content-around m-0">
+            <span>返</span>  
+            <span>回</span>
+        </p>
+        <p class="d-flex justify-content-around m-0">
+            <span>顶</span>
+            <span>部</span>
+        </p>
+    </div>
+  <div class="container-fluid">
+    
+    <div class="row m-0 my_tam ">
+        <div class="col-md-5 col-sm-12 p-0">
+            <div>
+                <div class="position-relative"> 
+                    <img id="m-img" src="../img/GolfBallDetails/O1CN01wecQ3K1PV3Gq4ywA4_!!1951471845.jpg_430x430q90.jpg" class="my-md" alt="8"> 
+                    <div id="mask" class="position-absolute d-none"></div>
+                    <div id= "super-mask" class="position-absolute"></div>
+                    <div id="div-lg" class="position-absolute d-none"></div>
+                </div>
+            </div>
+            <div>
+                <img id="btn-left" src="../img/golf2/arrow-left.png"  class="btn float-left btn-light  border-0 p-1 pt-4 pb-4 mt-3 disabled" alt="#">
+                <div >
+                    <ul id="ulImgs" class="list-unstyled float-left d-flex ">
+                    <!--   <li class="m-3">
+                            <img src="../img/GolfBallDetails/O1CN01wecQ3K1PV3Gq4ywA4_!!1951471845.jpg_60x60q90.jpg" data-tar="../img/GolfBallDetails/O1CN01wecQ3K1PV3Gq4ywA4_!!1951471845.jpg_430x430q90.jpg" data-big="../img/GolfBallDetails/O1CN01wecQ3K1PV3Gq4ywA4_!!1951471845.jpg" class="my-small" alt="1">
+                        </li>
+                        <li class="m-3">
+                            <img src="../img/GolfBallDetails/TB2jLptbolnpuFjSZFjXXXTaVXa_!!1951471845.jpg_60x60q90.jpg" data-tar="../img/GolfBallDetails/TB2jLptbolnpuFjSZFjXXXTaVXa_!!1951471845.jpg_430x430q90.jpg" class="my-small" alt="2">
+                        </li>
+                        <li class="m-3">
+                            <img src="../img/GolfBallDetails/TB2PcGvb1rAQeBjSZPcXXbJ6pXa_!!1951471845.jpg_60x60q90.jpg" data-tar="../img/GolfBallDetails/TB2PcGvb1rAQeBjSZPcXXbJ6pXa_!!1951471845.jpg_430x430q90.jpg" class="my-small" alt="3">
+                        </li>
+                        <li class="m-3">
+                            <img src="../img/GolfBallDetails/TB2Z_1EbV6AQeBjSZFIXXctXpXa_!!1951471845.jpg_60x60q90.jpg" data-tar="../img/GolfBallDetails/TB2Z_1EbV6AQeBjSZFIXXctXpXa_!!1951471845.jpg_430x430q90.jpg" class="my-small" alt="4">
+                        </li>
+                        <li class="m-3">
+                            <img src="../img/GolfBallDetails/TB2I.0sbiRnpuFjSZFCXXX2DXXa_!!1951471845.jpg_60x60q90.jpg" data-tar="../img/GolfBallDetails/TB2I.0sbiRnpuFjSZFCXXX2DXXa_!!1951471845.jpg_430x430q90.jpg" class="my-small" alt="5">
+                        </li>-->
+                    </ul>
+                </div>
+                <img  id="btn-right"  class="btn float-right btn-light border-0 p-1 pt-4 pb-4 " src="../img/golf2/arrow-right.png" alt="#">
+                
+            </div>
+        </div>
+
+
+          <!--  <div id="preview" class="col   pr-0">
+                <div class="card bg-transparent mr-5 position-absolute">
+                  <img id="m-img" class="card-img-top" src="../img/GolfBallDetails/O1CN01wecQ3K1PV3Gq4ywA4_!!1951471845.jpg_430x430q90.jpg" alt="Card image cap">
+                  <div id="mask" class="position-absolute d-none"></div>
+                  <div id="super-mask" class="position-absolute"></div>
+                  <div id="div-lg" class="position-absolute d-none"></div>
+                  <div class="card-body p-0 text-center">
+                    <img id="btn-left" src="../img/golf2/arrow-left.png" class="btn float-left btn-light border-0 p-1 pt-4 pb-4 disabled">
+                    <div class="d-inline-block pt-2 mx-0 m-auto">
+                      
+                      <ul id="ulImgs" class="list-unstyled mb-0">
+                            <li class="float-left p-1">
+                            <img src="../img/GolfBallDetails/
+                                    O1CN01wecQ3K1PV3Gq4ywA4_!!1951471845.jpg_60x60q90.jpg" data-md="../img/GolfBallDetails/O1CN01wecQ3K1PV3Gq4ywA4_!!1951471845.jpg_430x430q90.jpg" data-lg="../img/GolfBallDetails/O1CN01wecQ3K1PV3Gq4ywA4_!!1951471845.jpg">
+                            </li>
+                      </ul>
+                    </div>
+                    <img  id="btn-right" src="../img/golf2/arrow-right.png" class="btn float-right btn-light border-0 p-1 pt-4 pb-4">
+                  </div>
+                </div>
+            </div> -->
+
+
+
+        <div class="col-md-7 col-sm-12 p-0">
+            <div>
+                <ul class="list-unstyled ml-5 children">
+                    <li>TaylorMade 泰勒梅 儿童高尔夫球杆套装 5-8岁</li>
+                    <li>    <span>￥2650</span> <span></span> <span></span>             <span>7.0折</span>
+                    </li>
+                    <li>原价 <span>￥3800</span> </li>
+                    <li>运费 <span>免运费</span> </li>
+                    <li>已售 <span>0件</span> <a href="#">0人评价</a> </li>
+                    <li> <a href="#">立即购买</a> </li>
+                    <li>服务承诺 <span></span> <span>假一赔十</span> <span></span> <span>十天退换</span></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="d-flex go_shopping">
+            <div>
+                <ul class="list-unstyled">
+                    <li>
+                       <a href="javascript:;" class="goumai">购买须知</a>
+                       <a href="javascript:;" class="shangping">商品详情</a> 
+                       <a href="javascript:;" class="kehu">客户评价（0）</a>  
+                    </li>
+                    <li>购买须知</li>
+                    <li>18：00前订单当日发货，18：00后订单则次日发货，法定节假日照常发货，请放心选购，谢谢！ 惠民保证：绝对正品！</li>
+                    <li class="mb-3">商品详情</li>
+                    <li>
+                        <img src="../img/golf3/row1.jpg" alt="">
+                        <img src="../img/golf3/row2.jpg" alt="">
+                        <img src="../img/golf3/row3.jpg" alt="">
+                        <img src="../img/golf3/row4.jpg" alt="">
+                        <img src="../img/golf3/row5.jpg" alt="">
+                        <img src="../img/golf3/row6.jpg" alt="">
+                        <img src="../img/golf3/row7.jpg" alt="">
+                        <img src="../img/golf3/row8.jpg" alt="">
+                        <img src="../img/golf3/row9.jpg" alt="">
+                        <img src="../img/golf3/row10.jpg" alt="">
+                        <img src="../img/golf3/row11.jpg" alt="">
+                        <img src="../img/golf3/row12.jpg" alt="">
+                        <img src="../img/golf3/row13.jpg" alt="">
+                    </li>
+                </ul>
+                <p >客户评价</p>
+                <div class="d-flex khpj">
+                    <div>
+                        <p>
+                            <span>100</span>
+                            <span>%</span>
+                        </p>
+                        <p>好评度</p>
+                    </div>
+                    <div class="d-flex flex-column justify-content-around">
+                        <p >
+                            <span>好评</span>
+                            <span>(100%)</span>
+                            <span ></span>
+                        </p>
+                        <p>
+                            <span>中评</span>
+                            <span>(0%)</span>
+                            <span></span>
+                        </p>
+                        <p>
+                            <span>差评</span>
+                            <span>(0%)</span>
+                            <span></span>
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-around align-items-center">
+                    <p>好评(0条)</p>    
+                    <p>中评(0条)</p>
+                    <p>差评(0条)</p>
+                </div>
+                <p class="p-2">暂无点评</p>
+                <div class="mt-3 d-flex justify-content-end">
+                    <ul class="pagination ">
+                        <li class="page-item disabled">
+                            <a href="#" class="page-link">上一页</a>
+                        </li>
+                        <li class="page-item active">
+                            <a href="#" class="page-link">1</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">3</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">下一页</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="kongzhi">
+                    <!-- <p class="d-flex justify-content-between">
+                        <span>设计：</span> <span></span>
+                        <span>服务：</span> <span></span>
+                        <span>质量：</span> <span></span>
+                        <span>物流：</span> <span></span>
+                        <span>电话：</span> <span></span>
+                        <span>日期：</span> <span></span>
+                    </p>
+                    <p>评价: <span></span> </p> -->
+                    
+                </div>
+                <div class="d-flex justify-content-end anniu">
+                    <span class="ziti">第</span>
+                    <input type="button" value="1" class="btnbj">
+                    <input type="button" value="2">
+                    <input type="button" value="3">
+                    <input type="button" value="4">
+                    <input type="button" value="5">
+                    <span class="ziti">页</span>
+                </div>
+
+            </div>
+
+            <div>
+                <div class="pl-3">看过此商品还看过了</div>
+                <div class="card border-0 pointer">
+                    <div> <img src="../img/golf3/tao1.jpg" alt="" class="rightimg"> </div>
+                    <div class="titletext">Dunlop REBEL 男士初学套杆 性价比非常好 </div>
+                    <div class="borbottom"> 
+                        <span class="bigprice">￥2600</span>  <span class="threetext through">￥5200</span> <span class="threetext">5.0折 </span>        <span class="threetext">已售10件</span> 
+                    </div>
+                </div>
+                <div class="card border-0 pointer">
+                        <div> <img src="../img/golf3/tao2.jpg" alt="" class="rightimg mt-3"> </div>
+                        <div class="titletext">Taylormade M4男士超级套杆（碳素铁杆） </div>
+                        <div class="borbottom"> 
+                            <span class="bigprice">￥13000</span>  <span class="threetext through">￥26000</span> <span class="threetext">5.0折 </span>  <span class="threetext">已售2件</span> 
+                        </div>
+                </div>
+                <div class="card border-0 pointer">
+                        <div> <img src="../img/golf3/tao3.jpg" alt="" class="rightimg mt-3"> </div>
+                        <div class="titletext">POLO 男士新款黄金套杆 TY007M  </div>
+                        <div class="borbottom"> 
+                            <span class="bigprice">￥4680</span>  <span class="threetext through">￥8688</span> <span class="threetext">5.4折 </span>  <span class="threetext">已售2件</span> 
+                        </div>
+                </div>
+                <div class="card border-0 pointer">
+                        <div> <img src="../img/golf3/tao4.jpg" alt="" class="rightimg mt-3"> </div>
+                        <div class="titletext">Honma新款2019年男士TW747套杆 轻钢 </div>
+                        <div class="borbottom"> 
+                            <span class="bigprice">￥19800</span>  <span class="threetext through">￥30300</span> <span class="threetext">6.5折 </span>  <span class="threetext">已售1件</span> 
+                        </div>
+                </div>
+                <div class="card border-0 pointer">
+                        <div> <img src="../img/golf3/tao5.jpg" alt="" class="rightimg mt-3"> </div>
+                        <div class="titletext">Maruman Shuttle 男士高尔夫套杆 碳素  </div>
+                        <div class="borbottom"> 
+                            <span class="bigprice">￥19800</span>  <span class="threetext through">￥38700</span> <span class="threetext">5.1折 </span>  <span class="threetext">已售1件</span> 
+                        </div>
+                </div>
+                <div>
+                    <div>最近浏览</div> 
+                    <div class="media mt-3">
+                        <img src="../img/golf3/smtay.jpg" alt="" class="smtaylorimg ml-3">
+                        <div class="media-body">
+                            <p>TaylorMade 泰勒梅 儿童高尔夫球杆套装 5-8岁</p>
+                            <p> 
+                                <span class="bigpricesm" >￥2650 </span> <span class="through throughprice">￥3800</span> 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="media mt-3">
+                        <img src="../img/golf3/smbli.jpg" alt="" class="smtaylorimg ml-3">
+                        <div class="media-body">
+                            <p>BLITU / 百乐图 高尔夫女士英伦风运动休闲套装</p>
+                            <p> 
+                                <span class="bigpricesm" >￥268 </span> <span class="through throughprice">￥429</span> 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="media mt-3">
+                        <img src="../img/golf3/smlac.jpg" alt="" class="smtaylorimg ml-3">
+                        <div class="media-body">
+                            <p>LA COLOR 素色净色男长裤（三色可选）</p>
+                            <p> 
+                                <span class="bigpricesm" >￥295 </span> <span class="through throughprice">￥980</span> 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="media mt-3">
+                        <img src="../img/golf3/sm2100.jpg" alt="" class="smtaylorimg ml-3">
+                        <div class="media-body">
+                            <p>Taylormade M6铁木杆2019新款（热卖</p>
+                            <p> 
+                                <span class="bigpricesm" >￥2100 </span> <span class="through throughprice">￥2800</span> 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="media mt-3">
+                        <img src="../img/golf3/sm999.jpg" alt="" class="smtaylorimg ml-3">
+                        <div class="media-body">
+                            <p>¥99/年  成为云高俱乐部会员 </p>
+                            <p> 
+                                <span class="bigpricesm" >￥99 </span> <span class="through throughprice">￥199</span> 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="media mt-3">
+                        <img src="../img/golf3/smcall.jpg" alt="" class="smtaylorimg ml-3">
+                        <div class="media-body">
+                            <p>Callaway卡拉威  铁木杆杆头套 高尔夫用品</p>
+                            <p> 
+                                <span class="bigpricesm" >￥270 </span> <span class="through throughprice">￥360</span> 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="media mt-3">
+                        <img src="../img/golf3/smdun.jpg" alt="" class="smtaylorimg ml-3">
+                        <div class="media-body">
+                            <p>【特价】DUNLOP 高尔夫两层球 下场比赛球 远距离球</p>
+                            <p> 
+                                <span class="bigpricesm" >￥350 </span> <span class="through throughprice">￥488</span> 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="media mt-3">
+                        <img src="../img/golf3/smhon.jpg" alt="" class="smtaylorimg ml-3">
+                        <div class="media-body">
+                            <p>HONMA TW-K1 三层球（内含金球一颗）</p>
+                            <p> 
+                                <span class="bigpricesm" >￥179 </span> <span class="through throughprice">￥580</span> 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="media mt-3">
+                        <img src="../img/golf3/smtaylor.jpg" alt="" class="smtaylorimg ml-3">
+                        <div class="media-body">
+                            <p>Taylormade三层球Project（S）远距离比赛球</p>
+                            <p> 
+                                <span class="bigpricesm" >￥178 </span> <span class="through throughprice">￥360</span> 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="dimo">
+                <div id="dimo1">
+                    <p>1:中国高尔夫球协会关于长期招募实习生的公告</p>
+                    <p>2:中国高尔夫球协会关于对授予运动健将称号运动员公示的通知</p>
+                    <p>3:关于2019年青少年夏令营承办单位的公示</p>
+                    <p>4:关于公开选拔2019（上半年）高尔夫球国家队 复合型团队专业技术人员 第五批拟聘人员名单公示的通知</p>
+                    <p>5:中国高尔夫球协会关于开展2019年 备战奥运科技服务工作的招标公告</p>
+                    <p>6:中高协关于公开招选“中国高尔夫球奥运之队‘冠军模型’数据服务系统”合作商的招标公告</p>
+                    <p>7:关于公开选拔2019（上半年）高尔夫球国家队 复合型团队专业技术人员 第四批拟聘人员名单公示的通知</p>
+                    <p>8:关于印发2019“中国-爱尔兰青少年高尔夫球对抗赛”竞赛规程的通知</p>
+                    <p>9:关于公开选拔2019（上半年）高尔夫球国家队复合型团队专业技术人员第三批拟聘 人员名单公示的通知</p>
+                    <p>10:关于“中国美国青少年高尔夫球团体对抗赛”等两项赛事投标单位现场比选有关事宜的通知</p>
+                    <p>11:中高协关于组织国家集训队男队教练员参加面试的通知</p>
+                    <p>12:中高协关于公开征求《中国高尔夫球协会教练员培训管理规定》（征求意见稿） 意见和建议的公告</p>
+                    <p>13:关于转发《体育总局科教司关于2019年全国初级教练员岗位培训考试有关事宜的通知》的通知</p>
+                    <p>14:关于公布2019年中国-新西兰青少年高尔夫球团体对抗赛中方运动员资格名单的通知</p>
+                    <p>15:关于转发《体育总局科教司关于举办2019年 国家级教练员岗位培训班的通知》的通知</p>
+                </div>
+                <div id="dimo2"></div>
+            </div>
+        </div>
+    
+  </div>
+
+
+
+    
+  </div>
+
+  <footer id="footer"></footer>
+
+  <script src="../GOLFJS/jquery.min.js"></script>
+  <script src="../GOLFJS/popper.min.js"></script>
+  <script src="../GOLFJS/bootstrap.min.js"></script>
+  <script src="../GOLFJS/header.js"></script>
+  <script src="../GOLFJS/footer.js"></script>
+  <script src="../GOLFJS/golf_ball_detail2.js"></script>
+
+</body>
+</html>

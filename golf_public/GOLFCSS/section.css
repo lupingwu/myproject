@@ -1,0 +1,342 @@
+
+
+
+
+
+        /*轮播图*/
+
+#demo2{
+  margin-top:0px;
+}
+
+.carousel-indicators li{/*轮播图圆点的样式*/
+  width:15px;height:15px;
+  background-color:#fff;
+  margin-left:10px;
+  margin-right:10px;
+  border-radius:50%;
+}
+.carousel-indicators .active{/*圆点被激活的颜色*/
+  background-color:#0aa1ed;
+}
+
+.carousel-control-next,
+.carousel-control-prev{/*左右箭头的样式*/
+  width:4%;height:20%;
+  background-color:#0ff;
+  top:40%;
+  border-radius:0.3rem;
+}
+.carousel-control-prev{
+  left:1%;
+}
+.carousel-control-next{
+  right:1%;
+}
+
+.bigwidth{/*轮播图高度*/
+  width:100%;
+  height:780px;
+}
+
+/*球场图片样式*/
+.haikou{/*整行的高度*/
+  height: 30px;
+  line-height: 30px;
+}
+.haikou>p:nth-child(1){
+    width:100px;
+    height: 30px;
+    line-height: 30px;
+ 
+    font-size: 17px;
+    text-align: center;
+}
+.haikou>p:nth-child(1)~p{
+  margin-right: 30px ;
+}
+.haikou>p:nth-child(9){
+  margin-left: 480px ;
+}
+/*下拉选项*/
+.hide{ display: none; }
+
+/*
+**图片的宽高,字体和其他样式
+**
+*/
+
+.shai{
+  width:347px;
+  height: 200px;
+}
+.qian{/*钱的样式*/
+  display: inline-block;
+  width:100px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 28px;
+  font-weight: 600;
+  color:#ff7917;
+  text-align: center;
+}
+.yudings{/*预定的样式*/
+    display: inline-block;
+    width:50px;
+    height: 30px;
+    line-height:30px;
+    color:#fff;
+    text-align: center;
+    background-color: #ff7917; 
+    margin-left: 136px
+}
+.xiaoshou{
+  cursor: pointer;
+}
+
+
+
+
+.index2{/*特卖汇样式*/
+  height:3rem;
+  line-height: 3rem;
+  background-image:linear-gradient(to right,#cff 0%,#09c 20%,#5d8336 50%,#66c 70%,
+  #096 100%);
+}
+.index2>div:first-child>img{
+  width:3rem;height:3rem;
+  vertical-align: top;
+}
+.index2>div:first-child>img+span{
+  font-size:24px;
+  color:#f00;
+}
+.index2>div:first-child>span:nth-child(3){
+  font-weight: 600;
+  color:#ff0;
+}
+.miaosha{/*秒杀字体颜色*/
+  font-size: 24px;
+  font-weight: 500;
+  color:#b8d70b;
+  width:40px;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  background-color: #605751;
+}
+.jlhs{
+  font-size: 24px;
+  font-weight: 500;
+  color:#b8d70b;
+}
+.sfm{
+  font-size: 18px;
+  color:#cff;
+}
+/*两个图片的样式*/
+.col-md-6.col-sm-12.p-0>div{
+  height:25rem;
+  
+  border:2px solid #66c;
+}
+.col-md-6.col-sm-12.p-0>div:hover{
+  border:2px solid #f00;
+}
+.my_over{/*必须给父元素加溢出隐藏才会有效果的*/
+  overflow: hidden;
+}
+.imgq11{/*球图片样式*/
+  width:328px;
+  height:208px;
+  border-radius: 1px;
+  transition: transform 0.3s linear;
+  /*溢出隐藏无效 需要解决*/
+ 
+}
+.imgq11:hover,.imgq12:hover{
+  transform: scale(1.1);
+}
+.imgq12{/*球包图片样式*/
+  width:312px;
+  height:208px;
+  border-radius: 1px;
+  transition: transform 0.3s linear;
+  
+}
+.ul_section1{/*下边框的样式*/
+  border-bottom:2px solid #09c;
+}
+
+div.paiming{/*ajax世界排名*/
+  height:450px;
+}
+
+
+div.paiming>div:first-child{/*第一个左边div*/
+  width:35%;
+ 
+}
+div.paiming>div:nth-child(2),
+div.paiming>div:nth-child(3),
+div.paiming>div:nth-child(4),
+div.paiming>div:nth-child(5){/*第二个大div写出版的*/
+  background-color: #fafafa;
+  width:65%;
+  margin-left: 20px;
+  border-top:5px solid blue;
+}
+div.paiming>div:first-child>ul>li{/*排名的样式*/
+  height: 105px;
+  line-height: 105px;
+  padding-left: 20px;
+  background-color: #0ff;
+  margin-bottom: 10px;
+  cursor:pointer;
+
+}
+.zgx{
+  background-color: #0ff;
+  color:#dc3545 !important;
+  font-size: 30px;
+}
+.zgx1{
+  background-color: #dc3545 !important;
+  color:#0ff !important;
+  font-size: 30px;
+}
+
+
+
+.paiming1>p:nth-child(2){/*最后出版的样式*/
+  margin: -45px 0 0 533px;
+}
+.paiming1>p:nth-child(3){
+  margin: 0 0 0 508px;
+}
+.paiming1,.paiming1+p{/*下边框的样式*/
+  border-bottom:1px solid #66c;
+}
+.paiming1+p{
+  height:50px;
+  line-height: 50px;
+}
+.paiming1+p>span:first-child{/*英文的左外边距*/
+  margin-left: 40px;
+}
+.paiming1+p>span:nth-child(2){
+  margin-left:17px;
+}
+.paiming1+p>span:nth-child(3){
+  margin-left:40px;
+}
+.paiming1+p>span:nth-child(4){
+  margin-left:282px;
+}
+.paiming>div:nth-child(2)>ul:nth-child(3),
+.paiming>div:nth-child(3)>ul:nth-child(3),
+.paiming>div:nth-child(4)>ul:nth-child(3),
+.paiming>div:nth-child(5)>ul:nth-child(3){/*序列号*/
+  width:100px;
+  height:310px;
+}
+.paiming>div:nth-child(2)>ul:nth-child(3)>li,
+.paiming>div:nth-child(2)>ul:nth-child(4)>li,
+.paiming>div:nth-child(2)>ul:nth-child(5)>li,
+.paiming>div:nth-child(3)>ul:nth-child(3)>li,
+.paiming>div:nth-child(3)>ul:nth-child(4)>li,
+.paiming>div:nth-child(3)>ul:nth-child(5)>li,
+.paiming>div:nth-child(4)>ul:nth-child(3)>li,
+.paiming>div:nth-child(4)>ul:nth-child(4)>li,
+.paiming>div:nth-child(4)>ul:nth-child(5)>li,
+.paiming>div:nth-child(5)>ul:nth-child(3)>li,
+.paiming>div:nth-child(5)>ul:nth-child(4)>li,
+.paiming>div:nth-child(5)>ul:nth-child(5)>li
+{
+  height:51px;
+  line-height: 51px;
+  
+}
+.paiming>div:nth-child(2)>ul:nth-child(3)>li,
+.paiming>div:nth-child(3)>ul:nth-child(3)>li,
+.paiming>div:nth-child(4)>ul:nth-child(3)>li,
+.paiming>div:nth-child(5)>ul:nth-child(3)>li
+{
+  text-align: center;
+}
+.paiming>div:nth-child(2)>ul:nth-child(4),
+.paiming>div:nth-child(3)>ul:nth-child(4),
+.paiming>div:nth-child(4)>ul:nth-child(4),
+.paiming>div:nth-child(5)>ul:nth-child(4){/*球员名称*/
+  margin-left: 70px;
+}
+.paiming>div:nth-child(2)>ul:nth-child(5),
+.paiming>div:nth-child(3)>ul:nth-child(5),
+.paiming>div:nth-child(4)>ul:nth-child(5),
+.paiming>div:nth-child(5)>ul:nth-child(5){
+  margin-left: 293px;
+}
+
+.boxshadow{/*球包的阴影*/
+  box-shadow: 4px 5px 6px  #000;
+}
+
+
+/*
+*
+*左侧固定栏样式
+*/
+#lift{
+  
+  display: none;
+  position: fixed;
+  z-index: 100;
+  background-color: #b2c228;
+  right: 20px;
+  top:200px;
+}
+.lift_list{
+   display: block; 
+   list-style:none;
+   margin-bottom: 0 ;
+  }
+.lift_item {
+  border-top: 1px solid #b1aaaa;
+  transition: background-color .1s;
+  transition:all .3s linear;
+}
+.lift_btn {
+  overflow: hidden;
+  display: block;
+  width: 30px;
+  padding: 5px 5px;
+  line-height: 20px;
+  text-align: center;
+  color: #fefefe;
+  transition: color .1s;
+}
+.lift_item:hover, .lift_item_on {
+  position: relative;
+  border-bottom: 1px solid #d70b1c;
+  margin-bottom: -1px;
+  border-color: #d70b1c;
+  background-color: #d70b1c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

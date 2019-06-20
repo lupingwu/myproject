@@ -1,0 +1,78 @@
+
+
+.h-25.w-100{/*顶部渐变色*/
+  background-image: linear-gradient(to right,#006c60 0% ,#4ff900 100%)
+}
+.vertical-align{           /*logo图片局中显示*/
+  margin: -98px 0 0 87px;
+  width:10%;height:10%;
+}
+.word-wrap{             /*惠民高尔夫样式 垂直显示*/
+  display: inline-block;
+  color:#fff;
+  width:1rem;
+  font-size: 1rem;
+  word-wrap: break-word;
+  letter-spacing: 0.3rem;
+}
+.h-25.w-100>span+span{/*欢迎注册样式*/
+  margin-left: 180px;
+
+}
+.bground{/*背景图片*/
+  width:100%;height:65rem;
+  
+  
+  background:#fff url(../img/22.jpg) no-repeat scroll center center;
+  background-size: 95% 100%; 
+}
+.bground::before{/*伪元素生成空table的方式解决外边距溢出的问题*/
+  content:"";
+  display: table;
+}
+.pstion{/*div的位置*/
+  width:30rem;height:35rem;
+  background-color:rgba(0,0,0,0.15);
+  margin: 100px 0 0 780px;
+}
+.font-size1{/*登录惠民高尔夫样式*/
+  font-size:2rem;
+  color:#f90089;
+}
+li.float-right{/*新用户注册位置*/
+  margin: -35px 45px 0 0;
+}
+li.clear-both{/*清除浮动*/
+  clear: both;
+  
+}
+.input2{/*input样式, 字体颜色样式大小设置要搞懂*/
+  width:26rem;height:3rem;
+  padding-left: 2rem;
+  font-size: 1.5rem;
+  border-radius: 0.2rem;
+}
+.zidong{/*自动登录样式*/
+  margin-left:52px;
+  margin-top:80px;
+  font-size:22px;
+}
+.password{/*忘记密码样式*/
+  float:right;
+  margin:-35px 70px 0 0;
+  color:pink;
+}
+.btn.btn-info.btn-lg{
+  clear: botn;
+  width:393px;
+  margin-top:53px;
+}
+
+
+
+
+
+
+
+
+

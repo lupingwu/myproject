@@ -1,0 +1,177 @@
+
+.h-25.w-100{/*顶部渐变色*/
+  background-image: linear-gradient(to right,#006c60 0% ,#4ff900 100%)
+}
+.vertical-align{           /*logo图片局中显示*/
+  margin: -98px 0 0 87px;
+  
+  width:10%;height:10%;
+}
+.word-wrap{             /*惠民高尔夫样式 垂直显示*/
+  display: inline-block;
+  color:#fff;
+  width:1rem;
+  font-size: 1rem;
+  word-wrap: break-word;
+  letter-spacing: 0.3rem;
+}
+.h-25.w-100>span+span{/*欢迎注册样式*/
+  margin-left: 180px;
+}
+
+#shuxin-msg,
+#phone-msg,
+#email-msg,
+#upwd-qie,
+#upwd-msg,
+#uname-msg{/*获得焦点时div的样式*/
+  color:red;
+  text-align: center;
+  margin:0 auto;
+  height: 25px;
+}
+.shuaxin{/*刷新的样式*/
+  background-color: crimson;
+  color:cyan;
+}
+
+.verify-code>input{/*验证码样式*/
+	background: #fff;
+}
+.verify-code{
+	height: 78px;
+ 
+  margin-left: 100px;
+}
+.verify-code>.code-box{
+
+	width: 30%;
+	height: 34px;
+	margin-top: 8px;
+	border-radius: 3px;
+	opacity: 0;
+	cursor: pointer;
+	text-align: center;
+	line-height: 34px;
+	font-weight: bold;
+	transition: all .5s linear;
+}
+.verify-code span{
+  width:20px;
+  height: 10px;
+  /* font-size:9px;
+	width: 150px;
+	height: 26px;
+	float: left;
+	padding-left: 20px;
+	font-weight: bold;
+	margin: 8px 0 0 10px; */
+}
+
+.msgg{
+  color:#1e0492 !important;
+}
+
+
+.bground{/*背景图片*/
+  width:100%;height:65rem;
+  
+  
+  background:#fff url(../img/timg25.jpg) no-repeat scroll center center;
+  background-size: 95% 100%; 
+}
+.bground::before{/*伪元素生成空table的方式解决外边距溢出的问题*/
+  content:"";
+  display: table;
+}
+.pstion{/*div的位置*/
+  width:26rem;
+  height:50rem;
+  background-color:rgba(0,0,0,0.15);
+  margin: 110px 0 0 780px;
+}
+
+
+.font-size1{/*新用户注册样式*/
+  font-size:2rem;
+  color:#4ff900;
+}
+li.clear-both{/*清除浮动*/
+  clear: both;
+  margin-left: 13px;
+}
+li.float-right{/*直接登录位置*/
+  margin: -35px 45px 0 0;
+}
+.inputall{/*input的样式*/
+  width:15rem;height:2rem;
+  border-radius: 5px;
+}
+.sex_width{/*性别单选按钮*/
+  
+  margin-top:8px;
+}
+.sex_width>input:nth-child(3){
+  margin-left: 85px;
+}
+#tjzc{
+  margin-right: 110px;
+}
+
+/*滑动解锁样式*/
+#box{
+  position: relative;
+  width: 300px;
+  height: 40px;
+  margin-left:-40px;
+  margin-top: 10px; 
+  background-color: #e8e8e8;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+}
+.bgColor{
+  position: absolute;
+  left:0;
+  top:0;
+  width:40px;
+  height: 40px;
+  background-color: rgb(16, 64, 223);
+}
+.txt{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #000;
+  text-align: center;
+}
+.slider{
+  position: absolute;
+  left:0;
+  top:0;
+  width: 50px;
+  height: 40px;
+  border: 1px solid #ccc;
+  background: rgb(19, 211, 211);
+  text-align: center;
+  cursor: move;
+}
+.slider>i{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.slider.active>i{
+  color:green;
+}
+
+
+
+
+
+
+
+
+
+

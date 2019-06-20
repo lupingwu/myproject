@@ -1,0 +1,162 @@
+
+
+.detail1{/*小标题栏的高度*/
+  height: 2rem;
+}
+.detail1 .breadcrumb-item+.breadcrumb-item::before{
+  content:">>";
+}
+.wenben{/*文字的公共样式*/
+  color:#fff !important;
+}
+.my_img_w{width:554px;}/*小图片的高宽*/
+.my_img_w ul li img{
+    width:8rem;
+}
+.my_li_width{/*li的一行小背景色*/
+  height: 3rem;
+  background-color: lemonchiffon;
+  line-height: 3rem;
+}
+.my_li_width2{/*第二个li的高度*/
+  height:4rem;
+  line-height: 4rem;
+}
+.my_li_width2.borders{/*第三个li的上下边框的样式*/
+  border-top:2px dotted #0ff;
+  border-bottom:2px dotted #0ff;
+}
+.my_li_width2.borders>span:first-child{/*评价和积分的字体和内边距*/
+  font-size:0.8rem;
+  padding-left: 5rem;
+  
+}
+.my_li_width2.borders>span:nth-child(3){
+  padding-left: 5rem;
+}
+.my_li_width2.borders>span:nth-child(4){
+  font-size:0.8rem;
+  padding-left: 5rem;
+  
+}
+.my_li_width2>span.d-inline-block{/*小边框样式*/
+  width:4rem;
+  height:4rem;
+  border:1px solid #f00;
+}
+.my_li_width2>span.d-inline-block>a>img{/*评价下面图片的宽高*/
+  width:3.9rem;
+  height:3.5rem;
+}
+.my_li_width2>input.text-center{/*输入框的样式*/
+  width:4rem;
+  margin-left: 33px;
+  height:3rem;
+}
+.my_li_width2>a>.d-inline-block.my_long{
+  width:15rem;
+  height: 3rem;
+  border:1px solid #f00;
+  line-height: 3rem;
+}
+
+/*为你推荐下li的样式*/
+.my_ul>div{
+  width:17rem;
+  height: 22rem;
+  overflow: hidden;
+}
+.my_ul li{
+  width:17rem;
+  height: 22rem;
+  background-image:
+   linear-gradient(90deg,#c03381 0%,rgb(175, 202, 52) 50%,#0ff 100%);
+}
+.my_ul>div:first-child img,
+.my_ul>div:nth-child(4) img{/*为你推荐小图片宽度*/
+  width:17rem;
+  transition:transform 0.3s linear;
+}
+.my_ul>div:nth-child(2) img,
+.my_ul>div:nth-child(3) img{
+  width:272px;
+  transition:transform 0.3s linear;
+}
+.my_ul img:hover{
+  transform: scale(0.8);
+}
+.my_ul li:hover{
+  margin-left: -10px;
+  box-shadow: 3px 2px 4px #f00;
+}
+
+
+.my_ul_width{/*商品祥情的宽高样式*/
+  width:75%;
+  margin: 0 auto;
+  height: 3rem;
+  line-height: 3rem;
+ 
+  border:2px solid #dfdfdf;
+}
+.my_ul_width>li:first-child{
+  border-top:3px solid #f00;
+ margin-top: -2px;
+}
+.my_ul_width>li:nth-child(2){
+  border-left: 2px solid #dfdfdf;
+}
+.border_list{/*商品小标题栏*/
+  margin: 0 auto;
+  height: 15rem;
+  border-left: 2px solid #dfdfdf;
+  border-bottom: 2px solid #dfdfdf;
+  border-right: 2px solid #dfdfdf;
+}
+.border_list>p:first-child{
+  height: 3rem;
+  line-height: 3rem;
+}
+.my_small_font{/*字体公有样式*/
+  font-size:0.8rem;
+  font-weight: 600;
+  color:#666;
+}
+.border_list>p:nth-child(2){
+  height: 3rem;
+  line-height: 3rem;
+  font-weight: 700;
+  color:#a6c5eb;
+  font-size: 0.8rem;
+}
+.my_img_width{
+  margin: 0 auto;
+}
+.my_img_width img{/*商品祥情图片宽高*/
+  width:100%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
